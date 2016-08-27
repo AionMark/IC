@@ -1,0 +1,44 @@
+﻿Build started 25/03/2016 17:46:15.
+     1>Project "G:\IC\kinect01\kinect01\kinect01.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\kinect01.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /IC:\OpenCV\build\include /IC:\OpenCV\sources\include /Zi /nologo /W3 /WX- /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt "..\tinyxml2-master\tinyxml2.cpp" Source1.cpp
+         Source1.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cstdio(48): warning C4995: 'gets': name was marked as #pragma deprecated
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cstdio(52): warning C4995: 'sprintf': name was marked as #pragma deprecated
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cstdio(55): warning C4995: 'vsprintf': name was marked as #pragma deprecated
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cstring(21): warning C4995: 'strcat': name was marked as #pragma deprecated
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cstring(22): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>Source1.cpp(1037): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source1.cpp(1043): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source1.cpp(1049): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source1.cpp(1055): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source1.cpp(1060): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source1.cpp(1066): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source1.cpp(1080): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source1.cpp(1106): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source1.cpp(1116): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source1.cpp(1126): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source1.cpp(1135): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source1.cpp(1144): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source1.cpp(1156): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source1.cpp(1165): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source1.cpp(1240): warning C4552: '/' : operator has no effect; expected operator with side-effect
+         tinyxml2.cpp
+         Generating Code...
+     1>g:\ic\kinect01\kinect01\source1.cpp(619): warning C4715: 'decodifica' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"G:\IC\kinect01\x64\Debug\kinect01.exe" /NOLOGO /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v1.8\lib\amd64" /LIBPATH:C:\OpenCV\build\x64\vc10\lib kinect10.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\kinect01.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\IC\kinect01\x64\Debug\kinect01.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\IC\kinect01\x64\Debug\kinect01.lib" /MACHINE:X64 x64\Debug\tinyxml2.obj
+         x64\Debug\Source1.obj
+         kinect01.vcxproj -> G:\IC\kinect01\x64\Debug\kinect01.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"G:\IC\kinect01\x64\Debug\kinect01.exe;#1" /manifest x64\Debug\kinect01.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\kinect01.unsuccessfulbuild".
+         Touching "x64\Debug\kinect01.lastbuildstate".
+     1>Done Building Project "G:\IC\kinect01\kinect01\kinect01.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:19.03
