@@ -1,0 +1,40 @@
+
+valor do Points[0]: x:0.000000 y:0.000000
+
+valor do Points[1]: x:0.000000 y:0.000000
+
+valor do Points[2]: x:657.599976 y:247.000000
+
+valor do Points[3]: x:688.799988 y:153.399994
+
+valor do Points[4]: x:585.599976 y:296.399994
+
+valor do Points[5]: x:583.200012 y:392.600006
+
+valor do Points[6]: x:655.200012 y:447.200012
+
+valor do Points[7]: x:662.400024 y:436.799988
+
+valor do Points[8]: x:727.200012 y:309.399994
+
+valor do Points[9]: x:732.000000 y:384.799988
+
+valor do Points[10]: x:780.000000 y:442.000000
+
+valor do Points[11]: x:792.000000 y:468.000000
+
+valor do Points[12]: x:0.000000 y:0.000000
+
+valor do Points[13]: x:0.000000 y:0.000000
+
+valor do Points[14]: x:0.000000 y:0.000000
+
+valor do Points[15]: x:0.000000 y:0.000000
+
+valor do Points[16]: x:0.000000 y:0.000000
+
+valor do Points[17]: x:0.000000 y:0.000000
+
+valor do Points[18]: x:0.000000 y:0.000000
+
+valor do Points[19]: x:0.000000 y:0.000000

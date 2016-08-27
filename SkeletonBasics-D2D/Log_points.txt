@@ -1,0 +1,73 @@
+
+valor do Points[0]: x:5368707.000000 y:3579137.250000
+
+valor do Points[1]: x:5368707.000000 y:3579137.250000
+
+valor do Points[2]: x:5368707.000000 y:3579137.250000
+
+valor do Points[3]: x:5368707.000000 y:3579137.250000
+
+valor do Points[4]: x:5368707.000000 y:3579137.250000
+
+valor do Points[5]: x:5368707.000000 y:3579137.250000
+
+valor do Points[6]: x:5368707.000000 y:3579137.250000
+
+valor do Points[7]: x:5368707.000000 y:3579137.250000
+
+valor do Points[8]: x:5368707.000000 y:3579137.250000
+
+valor do Points[9]: x:5368707.000000 y:3579137.250000
+
+valor do Points[10]: x:5368707.000000 y:3579137.250000
+
+valor do Points[11]: x:5368707.000000 y:3579137.250000
+
+valor do Points[12]: x:5368707.000000 y:3579137.250000
+
+valor do Points[13]: x:5368707.000000 y:3579137.250000
+
+valor do Points[14]: x:5368707.000000 y:3579137.250000
+
+valor do Points[15]: x:5368707.000000 y:3579137.250000
+
+valor do Points[16]: x:5368707.000000 y:3579137.250000
+
+valor do Points[17]: x:5368707.000000 y:3579137.250000
+
+valor do Points[18]: x:5368707.000000 y:3579137.250000
+
+valor do Points[19]: x:5368707.000000 y:3579137.250000
+00006 y:634.400024
+
+valor do meuponto[12]: x:0.066830 y:-0.601430
+
+valor do Points[12]: x:415.200012 y:608.400024
+
+valor do meuponto[13]: x:-0.256000 y:-0.521004
+
+valor do Points[13]: x:283.200012 y:535.599976
+
+valor do meuponto[14]: x:0.060494 y:-0.329792
+
+valor do Points[14]: x:412.799988 y:483.600006
+
+valor do meuponto[15]: x:-0.256000 y:-0.521004
+
+valor do Points[15]: x:283.200012 y:535.599976
+
+valor do meuponto[16]: x:0.098080 y:-0.618886
+
+valor do Points[16]: x:427.200012 y:600.599976
+
+valor do meuponto[17]: x:-0.256924 y:-0.507925
+
+valor do Points[17]: x:283.200012 y:530.400024
+
+valor do meuponto[18]: x:0.134853 y:-0.462375
+
+valor do Points[18]: x:453.600006 y:572.000000
+
+valor do meuponto[19]: x:-0.256924 y:-0.507925
+
+valor do Points[19]: x:283.200012 y:530.400024

@@ -1,0 +1,52 @@
+﻿Build started 15/08/2016 12:12:52.
+     1>Project "I:\IC\SkeletonBasics-D2D\SkeletonBasics-D2D.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\SkeletonBasics-D2D.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt SkeletonBasics.cpp
+         SkeletonBasics.cpp
+     1>SkeletonBasics.cpp(1007): warning C4244: '=' : conversion from 'long double' to 'float', possible loss of data
+     1>SkeletonBasics.cpp(1009): warning C4244: '=' : conversion from 'long double' to 'float', possible loss of data
+     1>SkeletonBasics.cpp(1013): warning C4244: '=' : conversion from 'long double' to 'float', possible loss of data
+     1>SkeletonBasics.cpp(1021): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>SkeletonBasics.cpp(1025): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>SkeletonBasics.cpp(1029): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>SkeletonBasics.cpp(1032): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>SkeletonBasics.cpp(1077): warning C4244: '=' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>SkeletonBasics.cpp(1084): warning C4244: '=' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>SkeletonBasics.cpp(1095): warning C4244: '=' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>SkeletonBasics.cpp(1106): warning C4244: '=' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>SkeletonBasics.cpp(1113): warning C4244: '=' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>SkeletonBasics.cpp(1120): warning C4244: '=' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>SkeletonBasics.cpp(1136): warning C4244: '=' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>SkeletonBasics.cpp(1143): warning C4244: '=' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>SkeletonBasics.cpp(1150): warning C4244: '=' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>SkeletonBasics.cpp(1264): warning C4101: 'f' : unreferenced local variable
+     1>SkeletonBasics.cpp(1266): warning C4101: 'j' : unreferenced local variable
+     1>SkeletonBasics.cpp(1383): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>i:\ic\skeletonbasics-d2d\skeletonbasics.cpp(596): warning C4715: 'decodifica' : not all control paths return a value
+       ResourceCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"I:\IC\SkeletonBasics-D2D\x64\Debug\SkeletonBasics-D2D.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Kinect10.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\SkeletonBasics-D2D.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"I:\IC\SkeletonBasics-D2D\x64\Debug\SkeletonBasics-D2D.pdb" /SUBSYSTEM:WINDOWS /STACK:"10000000","10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:\IC\SkeletonBasics-D2D\x64\Debug\SkeletonBasics-D2D.lib" /MACHINE:X64 x64\Debug\SkeletonBasics.res
+         "x64\Debug\SkeletonBasics-D2D.exe.embed.manifest.res"
+         x64\Debug\SkeletonBasics.obj
+         x64\Debug\tinyxml2.obj
+         SkeletonBasics-D2D.vcxproj -> I:\IC\SkeletonBasics-D2D\x64\Debug\SkeletonBasics-D2D.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\SkeletonBasics-D2D.exe.embed.manifest" /manifest "x64\Debug\SkeletonBasics-D2D.exe.intermediate.manifest"
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         SkeletonBasics-D2D.vcxproj -> I:\IC\SkeletonBasics-D2D\x64\Debug\SkeletonBasics-D2D.exe
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\SkeletonBasics-D2D.unsuccessfulbuild".
+         Touching "x64\Debug\SkeletonBasics-D2D.lastbuildstate".
+     1>Done Building Project "I:\IC\SkeletonBasics-D2D\SkeletonBasics-D2D.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.95

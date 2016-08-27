@@ -1,0 +1,42 @@
+
+valor do Points[0]: x:0.000000 y:0.000000
+
+valor do Points[1]: x:0.000000 y:0.000000
+
+valor do Points[2]: x:494.399994 y:423.799988
+
+valor do Points[3]: x:508.799988 y:351.000000
+
+valor do Points[4]: x:434.399994 y:457.600006
+
+valor do Points[5]: x:400.799988 y:533.000000
+
+valor do Points[6]: x:384.000000 y:608.400024
+
+valor do Points[7]: x:381.600006 y:637.000000
+
+valor do Points[8]: x:554.400024 y:468.000000
+
+valor do Points[9]: x:607.200012 y:512.200012
+
+valor do Points[10]: x:667.200012 y:551.200012
+
+valor do Points[11]: x:703.200012 y:553.799988
+
+valor do Points[12]: x:0.000000 y:0.000000
+
+valor do Points[13]: x:0.000000 y:0.000000
+
+valor do Points[14]: x:0.000000 y:0.000000
+
+valor do Points[15]: x:0.000000 y:0.000000
+
+valor do Points[16]: x:0.000000 y:0.000000
+
+valor do Points[17]: x:0.000000 y:0.000000
+
+valor do Points[18]: x:0.000000 y:0.000000
+
+valor do Points[19]: x:0.000000 y:0.000000
+
+final do arquivo
