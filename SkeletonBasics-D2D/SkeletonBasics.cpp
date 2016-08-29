@@ -1069,12 +1069,15 @@ void LeXml(){
 
 		if(j == 0){
 			tinyxml2::XMLElement* aux;
-
+			// ponto 1 no modelo antigo
 		if(strcmp(atrib->GetText(),"X") == 0 ){
+				float teste_in;
 				aux = atrib->NextSiblingElement();
 				f->A[i].p1.rotx = atof(aux->GetText());
 				aux = aux->NextSiblingElement();
-				f->A[i].p1.p.x = atof(aux->GetText());
+				teste_in = atof(aux->GetText());
+				f->A[i].p1.p.x = teste_in;
+
 				}
 
 		else if (strcmp(atrib->GetText(),"Y") == 0){
@@ -1098,7 +1101,7 @@ void LeXml(){
 		
 		else if(j == 1){
 		tinyxml2::XMLElement* aux;
-			
+			// ponto 2 no modelo antigo
 		if (strcmp(atrib->GetText(),"X") == 0){
 				aux = atrib->NextSiblingElement();
 				f->A[i].p2.rotx = atof( aux->GetText());
@@ -1128,7 +1131,7 @@ void LeXml(){
 		
 		else if(j == 2){
 		tinyxml2::XMLElement* aux;
-			
+			// ponto 3 no modelo antigo
 		if (strcmp(atrib->GetText(),"X") == 0){
 				aux = atrib->NextSiblingElement();
 				f->A[i].p3.rotx = atof( aux->GetText());
@@ -1160,83 +1163,84 @@ void LeXml(){
    }
 
 	i=0;
-
+		//quadril centro novo modelo
 	   fr->p[0].x= f->A[0].p1.p.x;
 	   fr->p[0].y= f->A[0].p1.p.y;
 	   fr->p[0].z= f->A[0].p1.p.z;
-	   
+	   //coluna novo modelo
 	   fr->p[1].x= f->A[0].p2.p.x;
 	   fr->p[1].y= f->A[0].p2.p.y;
 	   fr->p[1].z= f->A[0].p2.p.z;
-
+	   //ombro centro novo modelo
 	   fr->p[2].x= f->A[0].p3.p.x;
 	   fr->p[2].y= f->A[0].p3.p.y;
 	   fr->p[2].z= f->A[0].p3.p.z;
-
-	   fr->p[3].x= f->A[1].p1.p.x;
-	   fr->p[3].y= f->A[1].p1.p.y;
-	   fr->p[3].z= f->A[1].p1.p.z;
-
+	   // cabeca no novo modelo 
+	   fr->p[3].x= f->A[1].p3.p.x;
+	  float teste = f->A[1].p3.p.x;
+	   fr->p[3].y= f->A[1].p3.p.y;
+	   fr->p[3].z= f->A[1].p3.p.z;
+		//ombro esquerdo novo modelo
 	   fr->p[4].x= f->A[4].p1.p.x;
 	   fr->p[4].y= f->A[4].p1.p.y;
 	   fr->p[4].z= f->A[4].p1.p.z;
-	   
+	  // cotovelo esquerdo novo modelo 
 	   fr->p[5].x= f->A[4].p2.p.x;
 	   fr->p[5].y= f->A[4].p2.p.y;
 	   fr->p[5].z= f->A[4].p2.p.z;
-
+	   //pulso esquerdo novo modelo
 	   fr->p[6].x= f->A[4].p3.p.x;
 	   fr->p[6].y= f->A[4].p3.p.y;
 	   fr->p[6].z= f->A[4].p3.p.z;
-
+		//mao esquerda novo modelo
 	   fr->p[7].x= f->A[5].p1.p.x;
 	   fr->p[7].y= f->A[5].p1.p.y;
 	   fr->p[7].z= f->A[5].p1.p.z;
-
+	   //ombro direito novo modelo
 	   fr->p[8].x= f->A[7].p1.p.x;
 	   fr->p[8].y= f->A[7].p1.p.y;
 	   fr->p[8].z= f->A[7].p1.p.z;
-	   
+	   //cotovelo Direito novo modelo
 	   fr->p[9].x= f->A[7].p2.p.x;
 	   fr->p[9].y= f->A[7].p2.p.y;
 	   fr->p[9].z= f->A[7].p2.p.z;
-
+	   //pulso direito novo modelo
 	   fr->p[10].x= f->A[7].p3.p.x;
 	   fr->p[10].y= f->A[7].p3.p.y;
 	   fr->p[10].z= f->A[7].p3.p.z;
-
+	   //mao direita novo modelo
 	   fr->p[11].x= f->A[8].p1.p.x;
 	   fr->p[11].y= f->A[8].p1.p.y;
 	   fr->p[11].z= f->A[8].p1.p.z;
-
+	   //quadril esquerdo novo modelo
 	   fr->p[12].x= f->A[10].p1.p.x;
 	   fr->p[12].y= f->A[10].p1.p.y;
 	   fr->p[12].z= f->A[10].p1.p.z;
-	   
+	   //joelho esquerdo novo modelo
 	   fr->p[13].x= f->A[10].p2.p.x;
 	   fr->p[13].y= f->A[10].p2.p.y;
 	   fr->p[13].z= f->A[10].p2.p.z;
-
+	   //tornozelo esquerdo novo modelo
 	   fr->p[14].x= f->A[10].p3.p.x;
 	   fr->p[14].y= f->A[10].p3.p.y;
 	   fr->p[14].z= f->A[10].p3.p.z;
-
+	   //pe esquerdo novo modelo
 	   fr->p[15].x= f->A[11].p1.p.x;
 	   fr->p[15].y= f->A[11].p1.p.y;
 	   fr->p[15].z= f->A[11].p1.p.z;
-
+	   //quadril direito novo modelo
 	   fr->p[16].x= f->A[13].p1.p.x;
 	   fr->p[16].y= f->A[13].p1.p.y;
 	   fr->p[16].z= f->A[13].p1.p.z;
-	   
+	   //joelho direito novo modelo
 	   fr->p[17].x= f->A[13].p2.p.x;
 	   fr->p[17].y= f->A[13].p2.p.y;
 	   fr->p[17].z= f->A[13].p2.p.z;
-
+	   //tornozelo direito novo modelo
 	   fr->p[18].x= f->A[13].p3.p.x;
 	   fr->p[18].y= f->A[13].p3.p.y;
 	   fr->p[18].z= f->A[13].p3.p.z;
-
+	   //pe direito novo modelo
 	   fr->p[19].x= f->A[14].p1.p.x;
 	   fr->p[19].y= f->A[14].p1.p.y;
 	   fr->p[19].z= f->A[14].p1.p.z;
